@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: montserrat;
+  background-color: #e7d8c9;
+}
+.sidebar {
+  position: fixed;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  background-color: #cb997e;
+  transition: all 0.5s ease;
+  margin-top: 80px;
+}
+.sidebar header {
+  font-size: 22px;
+  color: #223843;
+  text-align: center;
+  line-height: 70px;
+  background-color: #9d6b53;
+  user-select: none;
+}
+/* سوي هني الهوفر لا تنسين */
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: #042331;
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  border-bottom: 1px solid black;
+  transition: 0.4s;
+}
+ul li:hover a {
+  padding-left: 0px;
+}
+.sidebar ul a i {
+  margin-right: 0px;
+}
+/* هني سوي طريقة الاختفاء */
+/* #check {
+    display: none;
+  }
+  label #btn,
+  label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background-color: #042331;
+    border-radius: 3px;
+  }
+  label #btn {
+    left: 40px;
+    top: 250x;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all 0.5s;
+  }
+  label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+  }
+  /* دخلي علامة الأكس داخل */
+/* #check:checked ~ .sidebar {
+    left: 0;
+  }
+  #check:checked ~ .label #btn {
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  #check:checked ~ .label #cancel {
+    left: 195px;
+  }   */
+/* للأسف ماعرفت شلون اخش الايقونات و ارد اطلعهم لما اضغط لكن مابي امسح الكودراح اتعلمه بعدين */
+
+/* تضبيطات جدول الصفحة الفرعية الي فيه التقيم و سنة الانتاج */
+.tabel2 {
+  color: #042331;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+
+.tat {
+  margin-left: 50%;
+  color: #042331;
+  margin-top: 100px;
+}
+.g {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* بس لي هني  */
+nav {
+  background-color: #cb997e;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: #042331;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  margin-left: 800px;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul lia {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+/* تعديلات الصورة */
+.pic {
+  width: 70px;
+  height: 60;
+  margin-top: 2px;
+  border-radius: 50%;
+}
+/* تعديل جدول افلام الصفحة الرئيسية */
+td img {
+  margin: 10px;
+}
+
+.b {
+  margin-left: 155%;
+}
+table {
+  margin-left: 400px;
+  margin-top: 50px;
+}
+/* هذا حق الكلام الي فوق جدول الصفحة الرئيسية */
+.a {
+  text-align: center;
+  margin-top: 10px;
+}
