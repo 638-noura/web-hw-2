@@ -16,7 +16,6 @@ body {
   height: 100%;
   background-color: #cb997e;
   transition: all 0.5s ease;
-  margin-top: 80px;
 }
 .sidebar header {
   font-size: 22px;
@@ -25,6 +24,7 @@ body {
   line-height: 70px;
   background-color: #9d6b53;
   user-select: none;
+  height: 80px;
 }
 /* سوي هني الهوفر لا تنسين */
 .sidebar ul a {
@@ -96,9 +96,9 @@ ul li:hover a {
 }
 
 .tat {
-  margin-left: 50%;
+  margin-left: 30%;
   color: #042331;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .g {
   margin-left: 40px;
